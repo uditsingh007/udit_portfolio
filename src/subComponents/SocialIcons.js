@@ -17,7 +17,7 @@ const SocialIcons = (props) => {
           <a
             style={{ color: "inherit" }}
             target="_blank"
-            href="https://github.com/"
+            href="https://github.com/uditsingh007"
             rel="noreferrer"
           >
             <Github
@@ -32,7 +32,11 @@ const SocialIcons = (props) => {
           animate={{ scale: [0, 1, 1.5, 1] }}
           transition={{ type: "spring", duration: 1, delay: 1.2 }}
         >
-          <a target="_blank" href="https://linkedin.com/" rel="noreferrer">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/udit-pratap-singh-559946140/"
+            rel="noreferrer"
+          >
             <Linkedin
               height={30}
               width={30}

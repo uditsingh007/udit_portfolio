@@ -1,0 +1,31 @@
+trigger myuniquecontacttrigger on contact(before insert){
+    List<contact> conList = Trigger.new();
+    Set<Id> accId = new Set<Id>();
+    Map<Id, List<Contact>> mapAccIdAndConList = new Map<Id, List<contact>>();
+    List<contact> execon = new List<contact>();
+    for(Contact con : conList){
+        if(con.IsActive){
+            accId.add(con.AccountId);
+        }
+    }
+
+    for(Contact c : [Select Id, AccountId, IsActive From Contact Where AccountId IN : accId AND IsActive = true]){
+        execon.clear();
+        if(mapAccIdAndConList.containsKey(c.AccountId)){
+            execon = mapAccIdAndConList.get(c.AccountId);
+            execon.add(c);
+            mapAccIdAndConList.put(c.AccountId, execon);
+        } else {
+            execon.add(c);
+            mapAccIdAndConList.put(c.AccountId, execon);
+        }
+    }
+
+    for(List<contact> conList : mapAccIdAndConList.values()){
+        if(conList.size() > 0){
+
+        }
+        
+    }
+
+}

@@ -21,42 +21,40 @@ export const Work = [
   },
   {
     id: 3,
-    name: "Dev.to Clone",
-    description:
-      "A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-    tags: ["react", "api", "sass"],
+    name: "Metaverse",
+    description: "A landing page with subtle animations.",
+    tags: ["react", "tailwind", "framer-motion"],
 
-    demo: "http://devto-clone-codebucks27.vercel.app/",
-    github: "https://github.com/codebucks27/devto-clone",
+    demo: "metaverse-khaki-delta.vercel.app",
+    github: "https://github.com/uditsingh007/metaverse",
   },
   {
     id: 4,
-    name: "Sidebar Menu",
-    description:
-      "A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-    tags: ["react", "styledComponents", "react-router"],
+    name: "Hulu Clone",
+    description: "A cool looking hulu website with responsive layouts.",
+    tags: ["react", "tailwind", "nextjs"],
 
-    demo: "https://react-sidebar.vercel.app/",
-    github: "https://github.com/codebucks27/react-sidebar",
+    demo: "hulu-tan.vercel.app",
+    github: "https://github.com/uditsingh007/hulu",
   },
   {
     id: 5,
-    name: "Todo App(React + Redux)",
+    name: "Netflix clone",
     description:
-      "A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-    tags: ["react", "redux", "framer-motion"],
+      "Just another Netflix clone that make you fall in love with the platform",
+    tags: ["react", "nextjs", "ssr", "tmdb"],
 
-    demo: "http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-    github: "https://github.com/codebucks27/React-Redux-Todo-App",
+    demo: "netflix-clone-two-bay.vercel.app",
+    github: "https://github.com/uditsingh007/netflix-clone",
   },
-  {
-    id: 6,
-    name: "Responsive Navigation Menu",
-    description:
-      "A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-    tags: ["react", "react-router", "css"],
+  // {
+  //   id: 6,
+  //   name: "Responsive Navigation Menu",
+  //   description:
+  //     "A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
+  //   tags: ["react", "react-router", "css"],
 
-    demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
-    github: "https://github.com/codebucks27/React-responsive-navbar",
-  },
+  //   demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
+  //   github: "https://github.com/codebucks27/React-responsive-navbar",
+  // },
 ];

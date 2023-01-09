@@ -15,7 +15,7 @@ const MySkills = () => {
         <LogoComp theme="light" />
         <PowerButton />
         <SocialIcons theme="light" />
-        <Main>
+        {/* <Main>
           <Title>
             <Design width={40} height={40} /> Designer
           </Title>
@@ -36,7 +36,7 @@ const MySkills = () => {
               <li>Figma</li>
             </ul>
           </Description>
-        </Main>
+        </Main> */}
         <Main>
           <Title>
             <Developer width={40} height={40} /> Frontend Developer
@@ -97,7 +97,7 @@ const Box = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   @media (max-width: 50em) {
     flex-direction: column;
     & > *:nth-child(4) {
